@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { arrowRight } from "../assets/icons";
-import { bigShoe1 } from "../assets/images";
+import { bigShoe3 } from "../assets/images";
 import { Button } from "../components";
 import { ShoeCard } from "../components";
 import { shoes, statistics } from "../constants";
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+  const [bigShoeImg, setBigShoeImg] = useState(bigShoe3);
 
   return (
     <section
@@ -17,15 +17,15 @@ const Hero = () => {
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collection
         </p>
-        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
-          <span className="xl:bg-white xl:whitespace-nowrap relative z-9 pr-10">
+        <h1 className="xl:bg-white mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold z-10 xl:pb-4">
+          <span className="xl:whitespace-nowrap relative pr-10">
             The New Arrival
           </span>
           <br />
-          <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
+          <span className="text-coral-red inline-block mt-3">Dunk Low</span> Shoes
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
-          Discover stylish Nike arrivals, quality comfort, and innovation for
+          Discover stylish Dunk Low arrivals, quality comfort, and innovation for
           your active life.
         </p>
         <Button label="Show now" iconURL={arrowRight} />
@@ -51,7 +51,7 @@ const Hero = () => {
           alt="shoe colletion"
           width={610}
           height={502}
-          className="object-contain relative z-9"
+          className="object-contain relative -top-12"
         />
 
         <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">

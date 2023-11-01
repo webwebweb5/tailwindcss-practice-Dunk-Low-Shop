@@ -1,4 +1,4 @@
-const ShoeCard = ({ index, imgURL, changeBigShoeImage, bigShoeImg }) => {
+const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
   const handleClick = () => {
     if (bigShoeImg !== imgURL.bigShoe) {
       changeBigShoeImage(imgURL.bigShoe);
