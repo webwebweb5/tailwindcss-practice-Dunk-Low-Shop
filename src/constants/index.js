@@ -32,23 +32,23 @@ export const statistics = [
 export const products = [
     {
         imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        name: "Nike Dunk Low Chicago Split",
+        price: "฿ 4,500",
     },
     {
         imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        name: "Nike Dunk Low White Black Royal",
+        price: "฿ 4,800",
     },
     {
         imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
+        name: "Nike Dunk Low Retro WB University Red",
+        price: "฿ 4,650",
     },
     {
         imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        name: "Nike Dunk Low SE Lottery Green",
+        price: "฿ 6,000",
     },
 ];
 
